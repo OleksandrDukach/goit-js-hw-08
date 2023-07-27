@@ -22,5 +22,5 @@ function onSubmitForm(event) {
   event.preventDefault();
   console.log(JSON.parse(localStorage.getItem('feedback-form')));
   localStorage.clear();
-  dataInput.requestFullscreen();
+  dataInput.reset();
 }
